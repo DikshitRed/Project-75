@@ -2,9 +2,9 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { createAppContainer, createSwitchNavigator} from 'react-navigation';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
-import LoginScreen from './screens/LoginScreen';
-import WriteScreen from './screens/WriteScreen';
-import ReadScreen from './screens/ReadScreen';
+import LoginScreen from 'LoginScreen';
+import WriteScreen from 'WriteScreen';
+import ReadScreen from '.ReadScreen';
 
 export default class App extends React.Component {
   render() {
